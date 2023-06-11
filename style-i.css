@@ -1,0 +1,225 @@
+.special-offers {
+    padding-top: 130px;
+}
+.special-offers .h2offers{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 74px;
+    font-weight: 400;
+    font-size: 36px;
+    color: white;
+    font-family: 'Yeseva One';
+line-height: 42px;
+}
+
+.special-offers .box-one{
+    display: inline-flex;
+    position: relative;
+    left: -136px;
+}
+
+.special-offers .box-two{
+    display: inline-flex;
+    position: relative;
+    right: -183px;
+    /* padding-left: 300px; */
+}
+
+.special-offers .special{
+    position: relative;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.special-offers .text1 h3{
+    text-align: right;
+    font-weight: 400;
+    margin-bottom: 28px;
+    font-size: 26px;
+    color: white;
+    font-family: 'Yeseva One';
+}
+
+.special-offers .text1{
+    padding-top: 83px;
+    padding-left: 61px;
+    position: relative;
+    text-align: left;
+}
+
+.special-offers .text1 p{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 23px;
+    font-weight: 200;
+    color: #C4C4C4;
+    max-width: 222px;
+}
+
+.special-offers .line1{
+    position: absolute;
+    top: 130px;
+    left: 0;
+}
+
+.special-offers .salat{
+    width: 648px;
+    display: flex;
+    left: 0;
+}
+
+.special-offers .name1 img{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 365px;
+    height: 478px;
+}
+
+.special-offers .name2 img{
+    width: 365px;
+    height: 478px;
+}
+
+.special-offers .name3 img{
+    width: 365px;
+    height: 478px;
+}
+
+.special-offers .name4 img{
+    width: 365px;
+    height: 478px;
+}
+
+.special-offers .soup1{
+    display: flex;
+    width: 648px;
+    margin-bottom: 117px;
+}
+
+.special-offers .pancakes{
+    display: flex;
+    width: 648px;
+    margin-right: 61px;
+}
+
+.special-offers .pasta{
+    display: flex;
+    /* position: absolute; */
+    width: 648px;
+    /* right: 0px; */
+}
+
+.special-offers .text2{
+    padding-top: 258px;
+    padding-right: 61px;
+    position: relative;
+    text-align: left;
+}
+
+.special-offers .text3{
+    padding-top: 91px;
+    padding-left: 69px;
+    position: relative;
+    text-align: left;
+}
+
+.special-offers .text4{
+    padding-top: 239px;
+    padding-right: 63px;
+    position: relative;
+    text-align: left;
+}
+
+.special-offers .text4 h3{
+    margin-bottom: 17px;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    font-family: 'Yeseva One';
+}
+
+.special-offers .text3 h3{
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    font-family: 'Yeseva One';
+}
+
+.special-offers .text3 p{
+    font-weight: 200;
+    font-size: 21px;
+    font-family: 'Libre Franklin', sans-serif;
+    max-width: 222px;
+    color: #C4C4C4;
+}
+
+.special-offers .text4 p{
+    font-weight: 200;
+    font-size: 21px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #C4C4C4;
+    max-width: 222px;
+}
+
+.special-offers .line3{
+    position: absolute;
+    top: 137px;
+    left: 0;
+}
+
+.special-offers .line4{
+    position: absolute;
+    top: 269px;
+    left: 0;
+}
+
+.special-offers .text2 p{
+    font-weight: 200;
+    font-size: 23px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #C4C4C4;
+    max-width: 222px;
+}
+
+.special-offers .text2 h3{
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Yeseva One';
+}
+
+.special-offers .line2{
+    position: absolute;
+    top: 304px;
+    left: 0;
+}
+
+ @media(max-width:1360px){
+    .special-offers .box-one ,.special-offers .box-two{
+        display: block;
+        max-width: 648px;
+        margin: auto;
+        position: static;
+    }
+}
+
+ @media(max-width:750px){
+    .special-offers .pasta ,.special-offers  .soup1 ,.special-offers  .pancakes ,.special-offers  .salat{
+        display: block;
+        max-width: 365px;
+        margin: auto;
+    }
+    .special-offers .line1 ,.special-offers  .line2 ,.special-offers  .line3 ,.special-offers  .line4{
+        display: none;
+    }
+    .special-offers .name1 ,.special-offers  .name2 ,.special-offers  .name3 ,.special-offers  .name4{
+        text-align: center;
+    }
+    .special-offers .text1 ,.special-offers  .text2,.special-offers  .text3,.special-offers  .text4{
+        padding-left: 0;
+        padding-right: 0;
+        width: 365px;
+        margin: auto;
+    }
+}

@@ -1,0 +1,604 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Libre Franklin';
+}
+
+img{
+    max-width: 100%;
+}
+
+html { 
+    overflow-x: hidden; 
+}
+.container {
+    max-width: 1236px;
+    margin: auto;
+    /* padding-top: 50px; */
+}
+.back p {
+    max-width: 385px;
+    font-weight: 200;
+    color: white;
+    font-size: 30px;
+}
+
+h1 {
+    z-index: 10;  
+    position: absolute;
+    left: 0;
+    top: 180px;  
+    font-weight: 500;
+    font-size: 104px;
+    color: white;
+}
+header img {
+    margin-top: 55px
+}
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 30px;
+}
+
+/* gogogog */
+.menu h2 {
+    color: #fff;
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 92px;
+    line-height: 106px;
+    text-align: center;
+}
+
+.menu h3 {
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.menu h4 {
+    color: #FFFFFF;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.menu p {
+    
+    font-style: normal;
+    font-weight: 200;
+    font-size: 23px;
+    line-height: 28px;
+    color: #C4C4C4;
+}
+
+.menu .strokFood1 h5 {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 23px;
+    line-height: 28px;
+    color: #C4C4C4;
+
+}
+
+.menu .moneySl {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.menu .moneySl2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.menu h6 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+
+}
+
+.menu .strokFood2 h5 {
+    font-style: normal;
+    margin-top: 40px;
+    font-weight: 100;
+    font-size: 23px;
+    line-height: 28px;
+    color: #C4C4C4;
+}
+
+.menu .active {
+    text-decoration: underline;
+}
+
+.menu .visibility {
+    visibility: visible;
+}
+
+.menu .hidden {
+    visibility: hidden;
+}
+
+.menu .ingridFood {
+    min-height: 60px;
+    margin: 28px 0 45px;
+}
+
+.menu .ingridFood2 {
+    padding: 0;
+    width: 100%;
+    display: none;
+    justify-content: flex-start;
+    margin-top: 5px;
+
+}
+
+.menu .ingridFood3 {
+    padding: 0;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.menu nav {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .strokFood1 {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+
+.menu .strokFood2 {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu .blockFood {
+    width: 365px;
+}
+
+.menu .banner {
+    position: relative;
+    visibility: visible;
+    display: block;
+}
+
+.menu section {
+    visibility: hidden;
+    display: none;
+    transition: .5s;
+}
+
+.menu .liOne {
+    visibility: hidden;
+    display: none;
+    transform: translateX(-100%);
+}
+
+
+.menu .banner .foodBx .dishesActive {
+    object-fit: cover;
+    opacity: 1;
+    display: block;
+    transition: 1s;
+    visibility: visible;
+}
+
+.menu .controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .controls li {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    background: rgba(255, 255, 255, 0);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu .controls li:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-left: 3px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
+    transform: rotate(45deg);
+}
+
+.menu .controls li:nth-child(2):before {
+    transform: rotate(225deg);
+}
+.menu {
+    padding-top: 70px;
+}
+.menu .controls li:nth-child(2) {
+    bottom: 0px;
+    transform: translateX(100%);
+}
+/* ggogogoog */
+.winealternative {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+span{
+    color: white;
+}
+li {
+    color: white;
+}
+.winealternative h3 {
+    font-weight: 400;
+}
+
+.winealternative p {
+    font-family: 'Libre Franklin';
+font-weight: 200;
+font-size: 23px;
+line-height: 28px;
+min-height: 84px;
+color: #C4C4C4;
+
+}
+.wine {
+    width: 30%;
+}
+.wine1 {
+    margin-top: 88px;
+    margin-bottom: 86px;
+    font-weight: 400;
+    font-size: 34px;
+}
+
+.drinks h3 {
+    margin-top: 28px;
+    margin-bottom: 31px;
+    font-size: 23px;
+    color: white;
+    font-family: 'Yeseva One';
+font-weight: 400;
+font-size: 23px;
+line-height: 27px;
+}
+
+.drinks {
+    width: 365px;
+    height: 734px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.drinks li {
+    list-style: none;
+    font-family: 'Libre Franklin', sans-serif;
+font-weight: 200;
+font-size: 23px;
+line-height: 28px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.winealternative span {
+    /* position: absolute;
+    right: 2px;
+    bottom: 2px; */
+    margin-top: 18px;
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-align: right;
+    display: block;
+}
+
+.zaveshanie {
+    display: flex;
+    justify-content: space-between;
+}
+.friend {
+    color: #fff;
+    width: 262px;
+    height: 42px;
+    font-size: 25px;
+}
+
+.restaurant {
+    max-width: 673px;
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 42px;
+    text-align: right;
+    color: #ffffffd5;
+    margin-top: 50px;
+}
+
+.ya {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.order {
+    background-color: black;
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 32px;
+    text-decoration-line: underline;
+    border: none;
+    color: #FFFFFF;
+    width: 132px;
+    height: 42px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #1f1e1ea0;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: .8s;
+    min-height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.popup.opened {
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+}
+
+.popupcontent {
+    width: 872px;
+    background: rgba(37, 36, 36, 0.97);
+    padding: 30px;
+    position: relative;
+    color: #C4C4C4;
+    border: 1px solid #FFFFFF;
+    padding-bottom: 50px;
+}
+
+.popupclose {
+    background: rgba(37, 36, 36, 0.97);
+    color: #C4C4C4;
+    border: none;
+    padding: 10px;
+}
+
+.zakaz{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.YOUR {
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding-bottom: 22px;
+}
+
+.MAIN DISH {
+    position: absolute;
+    width: 99px;
+    height: 21px;
+    left: 304px;
+    top: 77px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.pay {
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.cash {
+ 
+   font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.dollar {
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.info{
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.main, .soupbtn {
+    width: 100%;
+    text-align: left;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    /* height: 21px; */
+    /* left: 304px;
+    top: 77px; */
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    font-family: 'Yeseva One';
+    color: #C4C4C4;
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 0;
+
+}
+
+.dish, .soup {
+    max-height: 0;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: flex;
+    gap: 20px;
+    transition: 0.8s;
+}
+
+.dish img {
+    height: 150px;
+}
+
+.dish h3 {
+    color: #fff;
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 10px 0;
+}
+
+button {
+    background-color: #1f1e1e;
+    color: #fff;
+}
+
+.soup img {
+    height: 150px;
+}
+
+footer {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.num{
+    text-align: right;
+    font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+.items{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C4C4C4;
+    padding: 10px 0;
+}
+
+@media(max-width:1298px) {
+    .winealternative {
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width: 1250px) {
+    .container {
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 1170px) {
+    .back {
+        padding-bottom: 700px;
+        background-size: 850px;
+        background-position: center bottom;
+    }
+
+    h1 {
+        padding-bottom: 80px;
+    }
+
+    p {
+        max-width: 80%;
+    }
+}
